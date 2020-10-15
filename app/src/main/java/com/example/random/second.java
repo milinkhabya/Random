@@ -18,7 +18,7 @@ public class second extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        name = (TextView) findViewById(R.id.random);
+        name = (TextView) findViewById(R.id.rand_name);
         Random rand = new Random();
         String randomName = names.get(rand.nextInt(names.size()));
         name.setText(randomName);
